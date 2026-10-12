@@ -1,0 +1,22 @@
+{
+    "name": "thefehr/kimai-auto-profile-bundle",
+    "description": "Automatically switches the datatable profile (desktop/mobile) based on the browser viewport width",
+    "type": "kimai-plugin",
+    "version": "1.0.0",
+    "license": "MIT",
+    "require": {
+        "kimai/plugin-installer": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "KimaiPlugin\\AutoProfileBundle\\": ""
+        }
+    },
+    "extra": {
+        "kimai": {
+            "require": 20000,
+            "version": "1.0.0",
+            "name": "AutoProfileBundle"
+        }
+    }
+}
